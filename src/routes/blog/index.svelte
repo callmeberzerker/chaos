@@ -18,7 +18,9 @@
       <!-- link article to /posts/$permalink -->
       <a href={`/blog/${post.permalink}`}>
         <h2>{post.title}</h2>
-        <p>{post.summary}</p>
+        <p>
+          {post.summary} - {new Intl.DateTimeFormat('en-GB').format(post.date)}
+        </p>
       </a>
     </article>
   {/each}
