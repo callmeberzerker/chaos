@@ -44,7 +44,7 @@
 </style>
 
 <svelte:head>
-  <title>Spase Markovski</title>
+  <title>Spase Markovski | Welcome!</title>
   <meta
     name="description"
     content="Spase Markovski - trials and tribulations..." />

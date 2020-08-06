@@ -11,6 +11,7 @@
 
 <svelte:head>
   <title>{post.title}</title>
+  <meta name="description" content={post.summary} />
 </svelte:head>
 
 <h1>{post.title}</h1>

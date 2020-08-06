@@ -3,6 +3,15 @@
   import { posts } from "./_blogs";
 </script>
 
+<svelte:head>
+
+  <title>Spase Markovski | Blog posts</title>
+  <meta
+    name="description"
+    content="Spase Markovski has opinions on things. Haven't you heard? It's my
+    understanding that everyone has heard." />
+</svelte:head>
+
 <div>
   {#each posts as post}
     <article>

@@ -1,5 +1,8 @@
 <svelte:head>
-	<title>About</title>
+  <title>Spase Markovski | About</title>
+  <meta
+    name="description"
+    content="Spase Markovski past and current trials and tribulations..." />
 </svelte:head>
 
 <h1>About this site</h1>
