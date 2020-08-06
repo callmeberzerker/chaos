@@ -1,46 +1,71 @@
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
+  h1,
+  figure,
+  p {
+    text-align: center;
+    margin: 0 auto;
+  }
 
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
+  h1 {
+    font-size: 2.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 0.5em 0;
+  }
 
-	figure {
-		margin: 0 0 1em 0;
-	}
+  figure {
+    margin: 0 0 1em 0;
+  }
 
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
+  img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 0 1em 0;
+  }
 
-	p {
-		margin: 1em auto;
-	}
+  p {
+    margin: 1em auto;
+  }
 
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
+  ul {
+    text-align: center;
+    list-style: inside;
+  }
+
+  @media (min-width: 480px) {
+    h1 {
+      font-size: 4em;
+    }
+  }
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+  <title>Spase Markovski</title>
 </svelte:head>
 
-<h1>Great success!</h1>
-
+<h1>Welcome to my home page!</h1>
+<!-- 
 <figure>
-	<img alt='Success Kid' src='successkid.jpg'>
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
+  <img alt="Yours truly" src="0.jpg" />
+  <figcaption>Look at this mysterious face!</figcaption>
+</figure> -->
 
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<p>You can find me online in the following places:</p>
+
+<ul>
+  <li>
+    <a href="https://twitter.com/callmeberzerker">
+      https://twitter.com/callmeberzerker
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/callmeberzerker">
+      https://github.com/callmeberzerker
+    </a>
+  </li>
+  <li>
+    <a href="https://instagram.com/callmeberzerker">
+      https://instagram.com/callmeberzerker
+    </a>
+  </li>
+</ul>
