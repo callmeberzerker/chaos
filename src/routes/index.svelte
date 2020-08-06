@@ -1,3 +1,7 @@
+<script>
+  import About from "./about.svelte";
+</script>
+
 <style>
   h1,
   figure,
@@ -41,14 +45,17 @@
 
 <svelte:head>
   <title>Spase Markovski</title>
+  <meta
+    name="description"
+    content="Spase Markovski - trials and tribulations..." />
 </svelte:head>
 
 <h1>Welcome to my home page!</h1>
-<!-- 
+
 <figure>
   <img alt="Yours truly" src="0.jpg" />
   <figcaption>Look at this mysterious face!</figcaption>
-</figure> -->
+</figure>
 
 <p>You can find me online in the following places:</p>
 

@@ -1,8 +1,8 @@
 {
   "background_color": "#ffffff",
   "theme_color": "#333333",
-  "name": "spase markovski site",
-  "short_name": "sm",
+  "name": "Spase Markovski",
+  "short_name": "SM",
   "display": "minimal-ui",
   "start_url": "/",
   "icons": [
