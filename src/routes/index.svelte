@@ -21,6 +21,7 @@
     width: 100%;
     max-width: 400px;
     margin: 0 0 1em 0;
+    border-radius: 50%;
   }
 
   p {
@@ -46,7 +47,7 @@
     content="Spase Markovski - trials and tribulations..." />
 </svelte:head>
 
-<h1>Welcome to my home page!</h1>
+<h1>Hello, world!</h1>
 
 <figure>
   <img alt="Yours truly" src="0.jpg" />
