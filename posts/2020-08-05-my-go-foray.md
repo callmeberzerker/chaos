@@ -1,7 +1,7 @@
 ---
 title: My go foray
 summary: A short post about ...
-date: 2020-04-01
+date: 2020-08-05
 ---
 
 - this

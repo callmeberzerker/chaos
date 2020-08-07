@@ -1,7 +1,3 @@
-<script>
-  import About from "./about.svelte";
-</script>
-
 <style>
   h1,
   figure,
