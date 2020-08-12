@@ -1,5 +1,5 @@
 <script>
-  import about from "./about.md";
+  import about from './about.md';
 </script>
 
 <svelte:head>

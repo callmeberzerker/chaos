@@ -1,9 +1,9 @@
-import _ from "lodash";
-import all from "../../../posts/*.md";
+import _ from 'lodash';
+import all from '../../../posts/*.md';
 
 export const posts = _.chain(all)
   .map(transform)
-  .orderBy("date", "desc")
+  .orderBy('date', 'desc')
   .value();
 
 export function findPost(permalink) {
@@ -29,6 +29,6 @@ function transform({ filename, metadata, html }) {
  */
 function resolveBlogLink(filename) {
   const filenameWithoutDate = filename.substring(11);
-  const permalink = filenameWithoutDate.replace(/.md$/, "");
+  const permalink = filenameWithoutDate.replace(/.md$/, '');
   return permalink;
 }

@@ -1,9 +1,9 @@
 <script>
-  import { stores } from "@sapper/app";
+  import { stores } from '@sapper/app';
   const { page } = stores();
   $: {
-    if (typeof gtag !== "undefined") {
-      gtag("config", "UA-174829266-1", {
+    if (typeof gtag !== 'undefined') {
+      gtag('config', 'UA-174829266-1', {
         page_path: $page.path,
       });
     }

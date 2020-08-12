@@ -19,16 +19,16 @@
     <!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
     %sapper.head%
-  </head>
-  <body>
-    <!-- The application will be rendered inside this element,
-	     because `src/client.js` references it -->
-    <div id="sapper">%sapper.html%</div>
 
     <!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
     %sapper.scripts%
+  </head>
+  <body>
+    <!-- The application will be rendered inside this element,
+	     because `src/client.js` references it -->
+    <div id="sapper">%sapper.html%</div>
   </body>
 </html>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -41,7 +41,7 @@
   function gtag() {
     dataLayer.push(arguments);
   }
-  gtag("js", new Date());
+  gtag('js', new Date());
 
-  gtag("config", "UA-174829266-1");
+  gtag('config', 'UA-174829266-1');
 </script>

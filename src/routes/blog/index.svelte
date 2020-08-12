@@ -1,6 +1,6 @@
 <script>
   // import the list of posts
-  import { posts } from "./_blogs";
+  import { posts } from './_blogs';
 </script>
 
 <svelte:head>

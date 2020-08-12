@@ -1,5 +1,5 @@
 ---
-title: About (Past and current tribulations)... 
+title: About (Past and current tribulations)...
 summary: My online resume
 date: 2020-08-07
 ---
@@ -7,8 +7,7 @@ date: 2020-08-07
 ## whoami
 
 I am Spase Markovski, coming from Macedonia and have been doing
-software professionally for 9 years. 
-
+software professionally for 9 years.
 
 ## My past tribulations
 

@@ -1,5 +1,5 @@
 <script context="module">
-  import { findPost } from "./_blogs";
+  import { findPost } from './_blogs';
   export function preload(page) {
     return { post: findPost(page.params.permalink) };
   }
