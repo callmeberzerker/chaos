@@ -15,6 +15,11 @@
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-1.0.0-next.7.tgz#0e8c9114b019f480ab1bcf6d8af101999732e0eb"
   integrity sha512-5lwBlZZcmrD0g2Ta3hbv9YxOLsngEC2c5Ce8zgpTFcHjuBdKXIBV3djJbrfFkSIUKuOG4057WzlLGlk0wWS14w==
 
+"@sveltejs/adapter-static@next":
+  version "1.0.0-next.3"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.3.tgz#61d592a0ea9594191000f844994b0ff73645b332"
+  integrity sha512-EMAfguRzJsEleAVIqcOkHmsV+ht/iWnTiZucnyAtOiVNqQ6Iyyskfmq8ewGpXVdfcZ03t4v6W/vKtyLe28K02w==
+
 "@sveltejs/kit@next":
   version "1.0.0-next.49"
   resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.49.tgz#993f7d7ec299f6d1a3fb2688c44f1b8c6769ee54"
