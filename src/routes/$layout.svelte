@@ -8,7 +8,6 @@
   <ul>
     <li><a aria-current={path === '/' ? 'page' : undefined} href=".">home</a></li>
     <li><a aria-current={path === '/about' ? 'page' : undefined} href="about">about</a></li>
-    <li><a rel="prefetch" aria-current={path === '/blog' ? 'page' : undefined} href="blog">blog</a></li>
   </ul>
 </nav>
 
