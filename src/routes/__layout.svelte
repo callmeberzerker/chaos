@@ -1,10 +1,13 @@
-<script>
-  import { page } from '$app/stores'
+<script lang="ts">
+  import Header from '$lib/components/Header.svelte'
 </script>
 
-<header>
+<!-- <header>
+  <Nav />
   <a href="/"><h1 class:small={$page.path !== '/'}>SvelteKit + MDsveX Blog</h1></a>
-</header>
+</header> -->
+
+<Header />
 
 <main>
   <slot />
@@ -22,6 +25,18 @@
     --color-background: #e5e5e5;
     --color-text-primary: #212121;
     --color-text-secondary: #5a5a5a;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+      'Helvetica Neue', sans-serif;
+
+    --color-green: #11998e;
+    --color-purple: #6a0dad;
+
+    --color-white: #fff;
+    --color-grey: #9b9b9b;
+    --color-orange: #ff3e00;
+    --color-secondary: var(--purple);
+    --color-primary: var(--orange);
   }
 
   :global(body) {
