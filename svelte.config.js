@@ -14,7 +14,7 @@ const config = {
     prerender: {
       force: true,
     },
-    ssr: import.meta?.env?.PROD,
+    ssr: false,
   },
 }
 

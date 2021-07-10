@@ -52,6 +52,7 @@
     color: var(--color-text-primary); */
     line-height: 1.51;
     font-size: 18px;
+    overflow-y: overlay;
   }
 
   :global(a) {
@@ -62,10 +63,6 @@
 
   :global(a:hover) {
     text-decoration: underline;
-  }
-
-  .small {
-    font-size: 1.6rem;
   }
 
   footer {

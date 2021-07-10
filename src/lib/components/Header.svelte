@@ -5,14 +5,12 @@
 <header>
   <nav>
     <ul>
-      <li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+      <li class:active={$page.path === '/' || $page.path.startsWith('/posts')}>
+        <a sveltekit:prefetch href="/">Home</a>
+      </li>
       <li class:active={$page.path === '/about'}><a sveltekit:prefetch href="/about">About</a></li>
     </ul>
   </nav>
-
-  <div class="corner">
-    <!-- TODO put something else here? github link? -->
-  </div>
 </header>
 
 <style>
@@ -36,8 +34,6 @@
     justify-content: center;
     align-items: center;
     list-style: none;
-    background: var(--background);
-    background-size: contain;
   }
 
   li {
@@ -45,16 +41,13 @@
     height: 100%;
   }
 
-  li.active::before {
-    --size: 6px;
+  li.active::after {
+    --size: 2px;
     content: '';
-    width: 0;
-    height: 0;
     position: absolute;
-    top: 0;
-    left: calc(50% - var(--size));
-    border: var(--size) solid transparent;
-    border-top: var(--size) solid var(--accent-color);
+    top: 50px;
+    width: 100%;
+    border-bottom: var(--size) solid var(--color-orange);
   }
 
   nav a {
@@ -62,7 +55,7 @@
     height: 100%;
     align-items: center;
     padding: 0 1em;
-    color: var(--heading-color);
+    color: var(--color-white);
     font-weight: 700;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -72,6 +65,6 @@
   }
 
   a:hover {
-    color: var(--accent-color);
+    color: var(--color-orange);
   }
 </style>
